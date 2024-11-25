@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>嵌套网页示例</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f9f9f9;
+        }
+        .header, .footer {
+            font-size: 24px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        .box {
+            width: 80%;
+            max-width: 600px;
+            border: 2px solid #333;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .box a {
+            text-decoration: none;
+            font-size: 18px;
+            color: #007BFF;
+            word-wrap: break-word;
+        }
+        .box a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- 第一行：标题 -->
+    <div class="header">dadhead</div>
+
+    <!-- 第二行：视频链接方框 -->
+    <div class="box">
+        <a href="https://player.bilibili.com/player.html?isOutside=true&aid=113401212699799&bvid=BV1uFSnYMEgP&cid=26547914271&p=1" target="_blank">
+            点击这里观看视频
+        </a>
+    </div>
+
+    <!-- 第三行：尾部 -->
+    <div class="footer">dadtail</div>
+</body>
+</html>
